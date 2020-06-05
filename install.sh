@@ -6,6 +6,10 @@ helpmsg() {
   command echo ""
 }
 
+has() {
+  type "$1" > /dev/null 2>&1
+}
+
 link_to_homedir() {
   command echo "backup old dotfiles..."
   if [ ! -d "$HOME/.dotbackup" ];then
@@ -30,6 +34,15 @@ link_to_homedir() {
     command echo "same install src dest"
   fi
 }
+setup_make() {
+  command echo "setup make..."
+  if has "make"; then
+  else
+    sudo apt update
+    sudo apt install -y build-essential
+    echo "make installed."
+  fi
+}
 
 while [ $# -gt 0 ];do
   case ${1} in
@@ -47,4 +60,7 @@ while [ $# -gt 0 ];do
 done
 
 link_to_homedir
+setup_make
+
 command echo -e "\e[1;36m Install completed!!!! \e[m"
+
