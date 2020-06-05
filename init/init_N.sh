@@ -31,13 +31,6 @@ chsh -s "$(which zsh)"
 #echo "restart shell..."
 #exec $SHELL -l
 
-#git
-#ssh-keygen
-
-##git config --global user.name "someone"
-##git config --global user.email an@email.adress
-git config --global core.editor "vim"
-
 #nvm
 echo "install nvm..."
 

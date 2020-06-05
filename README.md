@@ -1,7 +1,7 @@
 # dotfiles
 ## how to use
 ### install
-to install the dot files, run bash .bin/install.sh or simply ./.bin/install.sh at dotfiles directory.
+to install the dot files, run bash install.sh or simply ./install.sh at dotfiles directory.
 it creates symbolic link from the home directory to dotfiles, also apt install make if doesnt exist.
 
 ### update local
