@@ -1,9 +1,9 @@
 ##!/bin/bash
 
 #git install
-sudo apt update
+sudo yum update
 echo "install git..."
-sudo apt install -y git
+sudo yum install -y git
 
 #language install
 sudo locale-gen ja_JP.UTF-8
@@ -12,9 +12,9 @@ sudo locale-gen ja_JP.UTF-8
 sudo timedatectl set-timezone Asia/Tokyo
 
 #zsh
-sudo apt update
+sudo yum update
 echo "install zsh..."
-sudo apt-get install -y zsh 
+sudo yum install -y zsh 
 
 #prezto
 echo "install prezto..."

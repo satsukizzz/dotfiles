@@ -25,7 +25,7 @@ git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$H
 #  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 #done
 
-chsh -s "$(which zsh)"
+chsh -s "$(sudo which zsh)"
 ## password inquired
 
 #echo "restart shell..."

@@ -21,6 +21,9 @@ init_N:
 init_u:
 	@DOTPATH=$(DOTPATH) bash $(DOTPATH)/init/init_u.sh
 
+init_c:
+	@DOTPATH=$(DOTPATH) bash $(DOTPATH)/init/init_c.sh
+
 help: ## Self-documented Makefile
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \
 		| sort \

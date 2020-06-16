@@ -21,6 +21,7 @@ it creates several environments:
 
 - init\_u: setup for Ubuntu
 - init\_N: setup for N web school(built on Vagrant + Ubuntu 18.04 LTS)
+- init\_c: setup for CentOS
 - init\_w: for WSL2 (todo)
 - init\_a: for Arch Linux (todo)
 - init\_h: help (todo)
