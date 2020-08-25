@@ -16,12 +16,12 @@ it recreates symbolic links.
 to update remote repository somehow ( for fixing bugs or adding new features), do as git says.
 
 ### initialize
-to initialize environments, run `make init\_?` at dotfiles directory.
+to initialize environments, run `make init_?` at dotfiles directory.
 it creates several environments:
 
-- `make init\_u`: setup for Ubuntu
-- `make init\_N`: setup for N web school(built on Vagrant + Ubuntu 18.04 LTS)
-- `make init\_c`: setup for CentOS
-- `make init\_w`: for WSL2 (todo)
-- `make init\_a`: for Arch Linux (todo)
-- `make init\_h`: help (todo)
+- `make init_u`: setup for Ubuntu
+- `make init_N`: setup for N web school(built on Vagrant + Ubuntu 18.04 LTS)
+- `make init_c`: setup for CentOS
+- `make init_w`: for WSL2 (todo)
+- `make init_a`: for Arch Linux (todo)
+- `make init_h`: help (todo)
