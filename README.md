@@ -25,3 +25,15 @@ it creates several environments:
 - `make init_w`: for WSL2 (todo)
 - `make init_a`: for Arch Linux (todo)
 - `make init_h`: help (todo)
+
+### after initializing
+`git config --global user.name "username"`
+`git config --global user.email something@example.com`
+`git config --global core.editor "vim"`
+
+```
+sudo su - postgres
+psql
+alter role postgres with password 'some-password'
+```
+
