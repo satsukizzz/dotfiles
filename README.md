@@ -26,11 +26,13 @@ it creates several environments:
 - `make init_a`: for Arch Linux (todo)
 - `make init_h`: help (todo)
 
-### after initializing
-`git config --global user.name "username"`
-`git config --global user.email something@example.com`
-`git config --global core.editor "vim"`
+## commands after initializing
+### git
+- `git config --global user.name "username"`
+- `git config --global user.email something@example.com`
+- `git config --global core.editor "vim"`
 
+### alter passwords
 ```
 sudo su - postgres
 psql
