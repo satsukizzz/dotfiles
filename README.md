@@ -22,7 +22,6 @@ it creates several environments:
 - `make init_u`: setup for Ubuntu
 - `make init_N`: setup for N web school(built on Vagrant + Ubuntu 18.04 LTS)
 - `make init_c`: setup for CentOS
-- `make init_w`: for WSL2 (todo)
 - `make init_a`: for Arch Linux (todo)
 - `make init_h`: help (todo)
 
