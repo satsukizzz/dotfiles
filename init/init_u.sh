@@ -11,6 +11,12 @@ sudo locale-gen ja_JP.UTF-8
 #set date
 sudo timedatectl set-timezone Asia/Tokyo
 
+#apache2
+sudo apt install -y apache2
+
+#php
+sudo apt install -y php, php-xdebug, composer
+
 #zsh
 sudo apt update
 echo "install zsh..."
