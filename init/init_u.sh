@@ -5,6 +5,12 @@ sudo apt update
 echo "install git..."
 sudo apt install -y git
 
+#github cli install
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt update
+sudo apt install -y gh
+
 #language install
 sudo locale-gen ja_JP.UTF-8
 

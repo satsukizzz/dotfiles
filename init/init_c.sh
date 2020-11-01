@@ -5,6 +5,10 @@ sudo yum update
 echo "install git..."
 sudo yum install -y git
 
+#github cli install
+sudo yum config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+sudo yum install -y gh
+
 #language install
 sudo locale-gen ja_JP.UTF-8
 
