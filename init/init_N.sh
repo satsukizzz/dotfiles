@@ -5,6 +5,9 @@ sudo apt update
 echo "install git..."
 sudo apt install -y git
 
+echo "configure git..."
+git config --global core.excludesfile ~/.gitignore_global
+
 #language install
 sudo locale-gen ja_JP.UTF-8
 

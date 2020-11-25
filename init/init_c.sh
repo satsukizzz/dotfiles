@@ -5,6 +5,9 @@ sudo yum update
 echo "install git..."
 sudo yum install -y git
 
+echo "configure git..."
+git config --global core.excludefile ~/.gitignore_global
+
 #github cli install
 sudo yum config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
 sudo yum install -y gh

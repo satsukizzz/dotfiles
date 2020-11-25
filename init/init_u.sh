@@ -5,6 +5,9 @@ sudo apt update
 echo "install git..."
 sudo apt install -y git
 
+echo "configure git..."
+git config --global core.excludesfile ~/.gitignore_global
+
 #github cli install
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
 sudo apt-add-repository https://cli.github.com/packages
@@ -21,7 +24,7 @@ sudo timedatectl set-timezone Asia/Tokyo
 sudo apt install -y apache2
 
 #php
-sudo apt install -y php, php-xdebug, composer
+sudo apt install -y php, php-xdebug, composer, php-dev
 
 #zsh
 sudo apt update
