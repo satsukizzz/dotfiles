@@ -23,6 +23,7 @@ add-zsh-hook chpwd chpwd_git_show
 alias gshow="git show-branch"
 alias glog="git log --graph --oneline"
 alias relogin="exec $SHELL -l"
+alias vless="/usr/share/vim/vim81/macros/less.sh"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
